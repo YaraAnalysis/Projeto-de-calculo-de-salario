@@ -23,3 +23,11 @@ while repetir == 'S':
 
 print(funcionarios)
 print(salarios)
+
+qtd_funcionarios = len(funcionarios)
+print(qtd_funcionarios)
+i_funcionario = 0
+liquido = 3
+while i_funcionario < qtd_funcionarios:
+    print('Funcionário: {} | Salário Bruto: R$ {} | Salário Líquido: R${}.'.format(funcionarios[i_funcionario], salarios[i_funcionario], liquido))
+    i_funcionario +=1
