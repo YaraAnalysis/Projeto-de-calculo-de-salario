@@ -32,10 +32,10 @@ while repetir == 'S':
 qtd_funcionarios = len(funcionarios)
 
 taxas = '\nDescontos aplicados: \n Sindicato: 3% \n INSS: 10%'
-taxas_ir = '\nBase de cálculo do IR:\n Salário Bruto até 900 (inclusive) - isento \n Salário Bruto até 1500 (inclusive) - desconto de 5% \n Salário Bruto até 2500 (inclusive) - desconto de 10% \n Salário Bruto acima de 2500 - desconto de 20%\n'
+taxas_ir = '\nBase de cálculo do IR:\n Salário Bruto até R$: 900,00 (inclusive) - isento \n Salário Bruto até R$ 1.500,00 (inclusive) - desconto de 5% \n Salário Bruto até R$ 2.500,00 (inclusive) - desconto de 10% \n Salário Bruto acima de R$ 2.500,00 - desconto de 20%\n'
 print(taxas)
 print(taxas_ir)
 
 while i_funcionario < qtd_funcionarios:
-    print('Funcionário: {} | Salário Bruto: R$ {:,.02f} | Salário Líquido: R${:,.02f}.'.format(funcionarios[i_funcionario], salarios[i_funcionario], liquidos[i_funcionario]))
+    print('Funcionário: {} | Salário Bruto: R$ {:,.02f} | Salário Líquido: R$ {:,.02f}.'.format(funcionarios[i_funcionario], salarios[i_funcionario], liquidos[i_funcionario]))
     i_funcionario += 1
