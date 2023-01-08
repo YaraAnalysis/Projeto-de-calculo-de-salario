@@ -37,5 +37,5 @@ print(taxas)
 print(taxas_ir)
 
 while i_funcionario < qtd_funcionarios:
-    print('Funcionário: {} | Salário Bruto: R$ {} | Salário Líquido: R${}.'.format(funcionarios[i_funcionario], salarios[i_funcionario], liquidos[i_funcionario]))
+    print('Funcionário: {} | Salário Bruto: R$ {:,.02f} | Salário Líquido: R${:,.02f}.'.format(funcionarios[i_funcionario], salarios[i_funcionario], liquidos[i_funcionario]))
     i_funcionario += 1
