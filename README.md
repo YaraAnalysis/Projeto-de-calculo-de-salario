@@ -4,7 +4,7 @@ Projeto para calcular os descontos no salário
 # Descrição
 Este projeto solicita entrada de dados (NOME, SALÁRIO), calcula o salário líquido após efetuar os descontos informados e exibe o relatório ao final.
 
-# Descntos aplidados
+# Descontos aplicados
 Sindicato: 3%
 INSS: 10%
 
