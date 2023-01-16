@@ -3,11 +3,6 @@ salarios = []
 liquidos = []
 i_funcionario = 0
 
-#nome = input('Digite o NOME do funcionário: ')
-#funcionarios.append(nome)
-#salario = float(input('Informe o VALOR DO SALÁRIO mensal em reais: '))
-#salarios.append(salario)
-
 repetir = input('Deseja cadastrar UM funcionário? (S/N)')
 while repetir == 'S':
     nome = input('Digite o NOME do funcionário: ')
